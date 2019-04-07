@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <style>
+        p.ex{
+            padding-left: 30px;
+
+        }
+        p.ex1{
+            padding-left: 100px;
+        }
+        div.a{
+            line-height: 2;
+            font-size: large;
+            align-content: center;
+        }
+        input.ex
+        {
+            width: 20%;
+            height: 50px;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            font-size: 20px;
+
+        }
+    </style>
+    <body style="background-image:url(https://img.freepik.com/free-photo/doctor-with-stethoscope-hands-hospital-background_1423-1.jpg?size=626&ext=jpg) ;background-size:100% 100%;" >
+            <div style="text-align:center">
+                    <h1>Patient Registration Form</h1>
+            </div>
+            <form >
+                
+                 <div class="a">
+                    <p class="ex" >
+                        <b>1.Personal Details</b> <br> 
+                    </p>
+                    <p class="ex1">
+                        <b>First Name*:</b> <input type="text" name="firstname"><br>
+                        <b>Middle Name:</b> <input type="text" name="middlename"><br>
+                        <b>Last Name*:</b> <input type="text" name="lastname"><br>
+                        <b>Address*</b><br>
+                        <b>Flat No/Bunglow No,name*:</b> <input class="ex" type="text" name="address"><br>
+                        <b>Area/Road*:</b> <input class="ex" type="text" name="address"><br>
+                        <b>Pincode*:</b> <input type="number" name="pincode"><br>
+                        <b>Date of Birth*:</b> <input type="date" name="DOB"><br>
+                        <b>Age*:</b> <input type="number" name="age"><br>
+                        <b>Gender*:</b> <br>
+                        <input type="radio" name="gender" value="Male"> <b>Male</b> <br>
+                        <input type="radio" name="gender" value="Female"> <b>Female</b> <br>
+                        <input type="radio" name="gender" value="Other"> <b>Othet</b> <br>
+                        <b>Suffered From*:</b> <input class="ex" type="text" name="disease"><br>
+                        <b>Mobile number*:</b><input type="text" name="mobile no"><br>
+                    </p>
+                    <p class="ex">
+                        <b>2.About Previous Treatments</b>  <br>
+                    </p>
+                    <p class="ex1">
+                        <b>Hospital Name*:</b> <input type="text" name="hospital name"><br>
+                        <b>Name of doctor*:</b> <input type="text" name="doctor name"><br>
+                        <b>Address Line 1*:</b> <input class="ex" type="text" name="address"><br>
+                        <b>Address line 2*:</b> <input class="ex" type="text" name="address"><br>
+                        <b>Phone number</b> <input type="number" name="phone number"><br>
+                    </p>
+                    <button type="submit" form="nameform" value="submit">
+                            submit
+                    </button>
+                 </div>
+            
+            </form>
+    </body>    
+
+</html>
